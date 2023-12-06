@@ -59,8 +59,18 @@ function Product({productObj,children}) {
 
 function ProductRating({rating}) {
     // console.log(rating.count,rating.rate)
+    if(rating.rate > 0.5 && rating.rate < 1.4 ){
+        return "⭐"
+    }else if(rating.rate > 1.4 && rating.rate < 2.4 ){
+
+    }
+    
     return ( 
-        <span>{rating.count} {rating.rate}</span>
-        
+       
+        <>
+            <span>Count: {rating.count} </span>
+            <span>Rate: {rating.rate} </span> 
+        </>
+       
     )
 }

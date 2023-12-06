@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    /* border: 1px solid red; */
+    width: 45vw;
+    height: 60vh;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(229, 205, 175);
+   
+}
+
+.total, .promotions{
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+
+.total p{
+    margin-top: 5px 0;
+}
+
+.total button{
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.promotions p{
+    margin: 5px 0;
+}
+
+.promotions input {
+    width: 70%;
+    padding: 5px;
+   
+}
+
+.promotions button {
+   width: 20%;
+   background-color: blueviolet;
+   color: white;
+   border: none;
+   padding: 8px 5px;
+   cursor: pointer;
+    
+}
+.promotions div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.promotions div button{
+    width: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: transparent;
+    color: blueviolet;
+    padding: 0;
+    margin: 0;
+
+}
+
+button:hover{
+    color: blueviolet;
+    background-color: rgb(193, 170, 215);
+    font-size: bold;
+}

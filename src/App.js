@@ -1,9 +1,9 @@
-import Dropdown from "./component/Dropdown";
+import Checkout from "./component/Checkout.js";
 
 function App() {
   return (
     <div className="App">
-      <Dropdown />
+      <Checkout />
     </div>
   );
 }
